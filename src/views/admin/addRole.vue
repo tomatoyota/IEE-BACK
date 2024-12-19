@@ -67,13 +67,10 @@
 
 <script>
 import { storeToRefs } from 'pinia';    
-import { useEditdbStore } from '@/stores/Editdatabase.js';
-import EditComponent from '@/components/EditWordTextComponent.vue'
 import roleSrv from '@/service/rolePermission.js'
 
 export default {
     components:{
-        EditComponent,
     },
     data() {
         return {

@@ -97,8 +97,6 @@
 
 <script>
 import { storeToRefs } from 'pinia';    
-import { useEditdbStore } from '@/stores/Editdatabase.js';
-import EditComponent from '@/components/EditWordTextComponent.vue';
 import accountSrv from '@/service/account.js';
 
 import Swal from 'sweetalert2/dist/sweetalert2.js';
@@ -107,7 +105,7 @@ import { validateObject } from 'vee-validate';
 
 export default {
     components:{
-        EditComponent,
+        // EditComponent,
     },
     data() {
         return {
